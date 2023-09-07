@@ -3,7 +3,14 @@
 }
 
 body{
-  background-color:#1f1e1e;
+  background:linear-gradient(130deg,#48dbfb,rgb(6, 6, 160));
 }
 
+.title{
+  color: antiquewhite;
+  font-size: 55px;
+  margin-top: 26px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
