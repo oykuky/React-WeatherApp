@@ -2,4 +2,4 @@
 
 
 
-![i]('https://github.com/oykuky/React-WeatherApp/blob/main/weather-app/public/app.png')
+![i]('/weather-app/public/app.png')
