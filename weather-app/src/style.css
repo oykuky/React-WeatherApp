@@ -9,11 +9,11 @@
 .weather{
     max-width: 600px;
     min-width: 400px;
-    height: 670px;
+    min-height: 600px;
     padding: 30px;
     background:#fbfcfc ;
-    margin: 50px auto;
-    border-radius: 45px;
+    margin: 20px auto;
+    border-radius: 50px;
 }
 
 .search{
