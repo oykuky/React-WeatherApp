@@ -1,19 +1,19 @@
 import React from 'react'
 import '../style.css'
 import '../index.css'
-import { useState } from 'react';
 import Weather from './Weather';
 
-function Home({setSearch, city}) {
+function Home({setSearch, cityInfo}) {
 
   return (
     <div className='container'>
-        <div className='weather'>
+         <h1 className='title' >Weather</h1>
             <div className="search">
             <input type="text" placeholder="City Name" 
             onChange={(e) => setSearch(e.target.value)} />
             </div>
-            <Weather cityInfo={city} />
+        <div className='weather'>
+            <Weather cityInfo={cityInfo} />
         </div>
     </div>
   )
