@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
 .container{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(130deg,#48dbfb,rgb(6, 6, 160));
+    background:linear-gradient(130deg,#c4d4d8,rgb(68, 158, 213));
     padding-top: 50px;
     margin: auto;
 }
 .weather{
-    width: 500px;
-    height: 540px;
+    max-width: 600px;
+    min-width: 400px;
+    height: 670px;
     padding: 30px;
-    background:#c8d6e5 ;
+    background:#fbfcfc ;
     margin: 50px auto;
     border-radius: 45px;
 }
@@ -19,7 +21,7 @@
 }
 .search input{
     border-radius: 35px;
-    width: 500px;
+    width: 600px;
     height: 65px;
     background-color: ghostwhite;
     border-style: none;
@@ -28,20 +30,84 @@
     font-size: 20px;
 }
 
-
 .info{
-    background-color: #c3cbd2;
     border-radius: 12px;
-    margin:30px 0px 20px 0px;
+    margin:30px 0px 10px 0px;
     padding-top: 35px;
     padding-bottom: 35px;
-    border: 3px solid rgb(215, 170, 8);
 }
 
 .info h1{
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #807791;
-    margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: #928d9a;
 }
 
+.cName{
+    font-size: 26px;
+
+}
+.dot{
+    font-size: 60px;
+    color:  #928d9a;
+}
+
+.box{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    
+}
+.weatherState{
+    margin-top: 12px;
+    margin-left: 34px;
+    font-size: 38px;
+    font-weight: lighter;
+}
+
+.deg{
+    font-size: 55px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.degreeBox{
+    margin-top: 3px;
+    width: 50%;
+    border-radius: 56px;
+    padding: 5px 25px 5px 25px;
+    border: 2px solid rgb(149, 140, 140);
+}
+
+.temp{
+   margin-top: 39px;
+   display: flex;
+   justify-content: center;
+   font-family:'Raleway', sans-serif ;
+   font-size: 21px;
+   color: #848089;
+   font-weight: 400;
+   margin-bottom: 25px;
+}
+
+.min{
+    margin-left: 95px;
+}
+label{
+    font-size: 33px;
+}
+h3{
+    margin-bottom: 5px;
+}
+
+.icon{
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 200%;
+    background-color:  #121111;
+    width: 150px;
+    height: 150px;
+}
+.icon img{
+    margin: auto;
+    height: 150px;
+    width: 150px;
+}
