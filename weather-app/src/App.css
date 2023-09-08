@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
 .App {
   text-align: center;
 }
 
 body{
-  background:linear-gradient(130deg,#48dbfb,rgb(6, 6, 160));
+  background:linear-gradient(130deg,#c4d4d8,rgb(68, 158, 213));
 }
 
 .title{
-  color: antiquewhite;
-  font-size: 55px;
+  color: #90908f;
+  font-size: 75px;
+  font-weight: 400;
   margin-top: 26px;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Lora',serif;
 }
 
